@@ -1,7 +1,8 @@
 @import "tailwindcss";
+@plugin "daisyui";
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Helvetica, system-ui, Avenir, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -13,9 +14,31 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-a {
+/* Custom Theme Configuration */
+@theme {
+  /* Colors */
+  --color-bg-primary: #0a0a0a;
+  --color-bg-secondary: #111118;
+  --color-bg-surface: #1a1a2e;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #b0b0b0;
+  --color-accent-gold: #d4af37;
+  --color-accent-gold-light: #e8d48b;
+  --color-accent-gold-dark: #b8962e;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+/* a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
@@ -67,4 +90,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
