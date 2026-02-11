@@ -47,15 +47,23 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="fixed top-0 left-0 h-screen w-2xs bg-black text-white flex flex-col items-center py-8">
+    <header className="fixed top-0 left-0 h-screen w-2xs bg-black text-gray-300 flex flex-col items-center py-8">
       {/* Profile */}
       <div className="flex flex-col items-center">
-        <div className="w-36 h-36 rounded-full overflow-hidden">
-          <img
-            src="/Formal Photo.jpg"
-            alt="Profile"
-            className="w-full h-full object-cover"
-          />
+        <div className="
+            w-36 h-36
+            rounded-full
+            p-1
+            bg-[var(--color-accent-gold-dark)]
+            shadow-[0_0_12px_var(--color-accent-gold)]
+            ">
+            <div className="w-full h-full rounded-full overflow-hidden bg-black">
+                <img
+                src="/Formal Photo.jpg"
+                alt="Profile"
+                className="w-full h-full object-cover"
+                />
+            </div>
         </div>
 
         <h1 className="mt-4 text-xl font-semibold text-center">Kevin Wijaya</h1>
@@ -89,7 +97,7 @@ const Header = () => {
                 href={`#${section.id}`}
                 className={`flex items-center gap-3 px-6 py-3 transition ${
                   active === section.id
-                    ? "bg-gray-700 text-white"
+                    ? "bg-[var(--color-accent-gold-dark)] text-white"
                     : "text-gray-400 hover:text-white"
                 }`}
               >
