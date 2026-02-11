@@ -3,6 +3,11 @@ import { useState } from 'react'
 // import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/header'
+import Hero from './components/hero'
+import About from './components/about'
+import Resume from './components/resume'
+import Portfolio from './components/portfolio'
+import Contact from './components/contact'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -32,7 +37,13 @@ function App() {
     // </>
     <>
     <Header/>
-
+    <main className='ml-2xs md:ml-72'>
+      <Hero/>
+      <About/>
+      <Resume/>
+      <Portfolio/>
+      <Contact/>
+    </main>
     </>
   )
 }

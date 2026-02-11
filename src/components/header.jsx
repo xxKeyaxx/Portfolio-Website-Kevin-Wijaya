@@ -15,7 +15,7 @@ import SocialIcons from "./ui/socialicons";
 const sections = [
   { id: "hero", label: "Home", icon: <FaHome /> },
   { id: "about", label: "About", icon: <FaUser /> },
-  { id: "resume", label: "Resume", icon: <FaFileAlt /> },
+  { id: "resume", label: "Resume/CV", icon: <FaFileAlt /> },
   { id: "portfolio", label: "Portfolio", icon: <FaFolderOpen /> },
   { id: "contact", label: "Contact", icon: <FaEnvelope /> },
 ];
