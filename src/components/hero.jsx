@@ -12,7 +12,7 @@ const Hero = () => {
   //     setVisible(true);
   //   }, []);
   return (
-    <section className="hero min-h-screen bg-stone-950 text-white">
+    <section id="hero" className="hero min-h-screen bg-stone-950 text-white">
       <div className="hero-content text-center">
         <div className="max-w-3xl space-y-6">
           {/* Name */}

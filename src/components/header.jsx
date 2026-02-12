@@ -59,7 +59,7 @@ const Header = () => {
             rounded-full
             p-1
             bg-accent-gold-dark
-            shadow-[0_0_12px_var(--color-accent-gold-dark)]
+            shadow-[0_0_10px_var(--color-accent-gold-dark)]
             "
         >
           <div className="w-full h-full rounded-full overflow-hidden bg-black">
