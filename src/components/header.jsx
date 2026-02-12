@@ -12,6 +12,10 @@ import {
 } from "react-icons/fa";
 import SocialIcons from "./ui/socialicons";
 
+import formalPhoto from "../assets/Formal Photo.jpg";
+import CV from "../assets/CV Kevin Wijaya.pdf";
+
+
 const sections = [
   { id: "hero", label: "Home", icon: <FaHome /> },
   { id: "about", label: "About", icon: <FaUser /> },
@@ -59,7 +63,7 @@ const Header = () => {
             ">
             <div className="w-full h-full rounded-full overflow-hidden bg-black">
                 <img
-                src="/Formal Photo.jpg"
+                src={formalPhoto}
                 alt="Profile"
                 className="w-full h-full object-cover"
                 />
@@ -78,7 +82,7 @@ const Header = () => {
             <FaGithub />
           </SocialIcons>
 
-          <SocialIcons href="/CV Kevin Wijaya.pdf">
+          <SocialIcons href={CV}>
             <FaFileAlt />
           </SocialIcons>
 

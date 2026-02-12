@@ -12,7 +12,7 @@ This is a portfolio site that contains information about myself, my resume, and 
 
 ## Host Link
 
-This website is hosted directly on GitHub Pages and is openable on https://xxkeyaxx.github.io/Portfolio-Website-Kevin-Wijaya/
+This website is hosted directly on GitHub Pages and is viewable on https://xxkeyaxx.github.io/Portfolio-Website-Kevin-Wijaya/
 
 
 ## Known Bugs
