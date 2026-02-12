@@ -1,16 +1,26 @@
-# React + Vite
+## Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a portfolio site that contains information about myself, my resume, and links to various projects I have worked on. It also contains a contact form that allows users to send me a message.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* HTML
+* CSS
+* React + Vite
+* JavaScript
+* Tailwind CSS
 
-## React Compiler
+## Host Link
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This website is hosted directly on GitHub Pages and is openable on https://xxkeyaxx.github.io/Portfolio-Website-Kevin-Wijaya/
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Known Bugs
+
+* No known bugs at this time.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+Copyright (c) 2023 _Kyle Hubbard_
