@@ -15,7 +15,6 @@ import SocialIcons from "./ui/socialicons";
 import formalPhoto from "../assets/Formal Photo.jpg";
 import CV from "../assets/CV Kevin Wijaya.pdf";
 
-
 const sections = [
   { id: "hero", label: "Home", icon: <FaHome /> },
   { id: "about", label: "About", icon: <FaUser /> },
@@ -51,23 +50,25 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="fixed top-0 left-0 h-screen w-2xs bg-black text-gray-300 flex flex-col items-center py-8">
+    <header className="fixed top-0 left-0 h-screen w-2xs bg-stone-900 text-gray-300 flex flex-col items-center py-8">
       {/* Profile */}
       <div className="flex flex-col items-center">
-        <div className="
+        <div
+          className="
             w-36 h-36
             rounded-full
             p-1
-            bg-[var(--color-accent-gold-dark)]
-            shadow-[0_0_12px_var(--color-accent-gold)]
-            ">
-            <div className="w-full h-full rounded-full overflow-hidden bg-black">
-                <img
-                src={formalPhoto}
-                alt="Profile"
-                className="w-full h-full object-cover"
-                />
-            </div>
+            bg-accent-gold-dark
+            shadow-[0_0_12px_var(--color-accent-gold-dark)]
+            "
+        >
+          <div className="w-full h-full rounded-full overflow-hidden bg-black">
+            <img
+              src={formalPhoto}
+              alt="Profile"
+              className="w-full h-full object-cover"
+            />
+          </div>
         </div>
 
         <h1 className="mt-4 text-xl font-semibold text-center">Kevin Wijaya</h1>
@@ -101,7 +102,7 @@ const Header = () => {
                 href={`#${section.id}`}
                 className={`flex items-center gap-3 px-6 py-3 transition ${
                   active === section.id
-                    ? "bg-[var(--color-accent-gold-dark)] text-white"
+                    ? "bg-accent-gold-dark text-white"
                     : "text-gray-400 hover:text-white"
                 }`}
               >
