@@ -10,16 +10,16 @@ const SocialIcons = ({ href, children }) => {
       className="
             text-2xl
             relative
-            text-[var(--color-text-secondary)]
+            text-text-secondary)
             transition duration-300
-            hover:text-[var(--color-accent-gold)]
+            hover:text-accent-gold
             hover:scale-110
             after:absolute
             after:bottom-0
             after:left-0
             after:h-[2px]
             after:w-0
-            after:bg-[var(--color-accent-gold)]
+            after:bg-accent-gold
             after:transition-all
             after:duration-300
             hover:after:w-full

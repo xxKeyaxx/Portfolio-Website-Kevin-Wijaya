@@ -10,6 +10,8 @@ import {
   FaBriefcase,
   FaFolderOpen,
 } from "react-icons/fa";
+import { Mail } from "lucide-react";
+import LinkTreeLogo from "../assets/linktree.svg?react";
 import SocialIcons from "./ui/socialicons";
 
 import formalPhoto from "../assets/Formal Photo.jpg";
@@ -88,8 +90,12 @@ const Header = () => {
           </SocialIcons>
 
           <SocialIcons href="mailto:wijayakevin2003@gmail.com">
-            <FaEnvelope />
+            <Mail />
           </SocialIcons>
+
+          {/* <SocialIcons href="https://linktr.ee/xxkeyaxx">
+            <LinkTreeLogo />
+          </SocialIcons> */}
         </div>
       </div>
 
