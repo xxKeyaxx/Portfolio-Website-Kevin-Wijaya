@@ -52,7 +52,7 @@ const Hero = () => {
               className="btn bg-accent-gold text-black border-none
                          hover:shadow-[0_0_25px_rgba(212,175,55,0.6)]"
             >
-              <FaFileAlt /> Download My CV
+              <FaFileAlt /> Download CV
             </a>
           </div>
         </div>

@@ -10,7 +10,7 @@ const About = () => {
         <ScrollReveal>
           {/* Section Title */}
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold">
+            <h2 className="text-4xl font-bold">
               About <span className="text-accent-gold">Me</span>
             </h2>
             <div className="w-24 h-0.5 bg-accent-gold mx-auto mt-4"></div>
@@ -19,7 +19,7 @@ const About = () => {
 
         <ScrollReveal>
           {/* Bio */}
-          <div className="max-w-3xl mx-auto text-center text-gray-300 mb-12">
+          <div className="max-w-4xl mx-auto text-center text-gray-300 mb-12">
             <p>
               I'm a Master's student about to graduate from Bina Nusantara
               University majoring in Computer Science. Skilled in general
@@ -66,8 +66,9 @@ const About = () => {
                   Software Engineer
                 </h2>
                 <p className="text-gray-300">
-                  Designing and developing various pilot and deployed applications with
-                  various architectures and pleasant UI/UX for optimal user experience.
+                  Designing and developing various pilot and deployed
+                  applications with various architectures and pleasant UI/UX for
+                  optimal user experience.
                 </p>
               </div>
             </div>
@@ -99,8 +100,9 @@ const About = () => {
                   Backend Developer
                 </h2>
                 <p className="text-gray-300">
-                  Experience from internship making a salespoint application and system
-                  focused on user needs, performance, and efficient data handling.
+                  Experience from internship making a salespoint application and
+                  system focused on user needs, performance, and efficient data
+                  handling.
                 </p>
               </div>
             </div>
@@ -130,7 +132,8 @@ const About = () => {
                 <h2 className="card-title text-accent-gold">Data Scientist</h2>
                 <p className="text-gray-300">
                   Gathering data, analyzing datasets, and developing ML models
-                  in various projects (incl. published papers) to extract insights.
+                  in various projects (incl. published papers) to extract
+                  insights.
                 </p>
               </div>
             </div>
