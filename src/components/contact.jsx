@@ -10,9 +10,13 @@ const Contact = () => {
       <div className="max-w-6xl mx-auto">
         {/* HEADER */}
         <ScrollReveal>
-          <div className="text-center mb-20">
-            <h2 className="text-4xl font-bold text-accent-gold">Get In Touch</h2>
-            <p className="text-gray-400 mt-4">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold">
+              Get <span className="text-accent-gold">In Touch</span>
+            </h2>
+            <div className="w-24 h-0.5 bg-accent-gold mx-auto mt-4"></div>
+
+            <p className="text-gray-300 mt-4">
               Always looking for new opportunities, don't hesitate to reach out!
             </p>
           </div>
