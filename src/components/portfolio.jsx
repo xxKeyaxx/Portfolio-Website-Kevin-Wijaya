@@ -62,7 +62,7 @@ const Portfolio = () => {
 
         {/* ================= PROJECTS ================= */}
         <ScrollReveal>
-          <SectionTitle title="Projects (For others look at my GitHub, I'm in the process of adding them here)" />
+          <SectionTitle title="Projects (For others please look at my GitHub, I'm in the process of adding them here)" />
         </ScrollReveal>
 
         <ScrollReveal>
@@ -176,7 +176,7 @@ function PaperCard({ title, journal, year, description, paper_link, github }) {
           <a
             href={paper_link}
             target="_blank"
-            rel="noopener noreferrer" 
+            rel="noopener noreferrer"
             className="flex items-center gap-2 hover:underline"
           >
             <FileText size={18} />
