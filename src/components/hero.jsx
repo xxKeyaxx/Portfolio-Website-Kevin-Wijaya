@@ -4,6 +4,7 @@ import { Typewriter } from "react-simple-typewriter";
 import CV from "../assets/CV Kevin Wijaya.pdf";
 import { FaFileAlt } from "react-icons/fa";
 import { ChevronDown } from "lucide-react";
+import { SiLinktree } from "react-icons/si";
 
 const Hero = () => {
   //   const [visible, setVisible] = useState(false);
@@ -54,7 +55,15 @@ const Hero = () => {
             >
               <FaFileAlt /> Download CV
             </a>
+                        <a
+              href="https://linktr.ee/xxkeyaxx"
+              className="btn bg-transparent text-accent-gold border-accent-gold
+                         hover:shadow-[0_0_25px_rgba(212,175,55,0.6)]"
+            >
+              <SiLinktree /> Go to Linktree
+            </a>
           </div>
+
         </div>
       </div>
 

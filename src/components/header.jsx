@@ -11,8 +11,8 @@ import {
   FaFolderOpen,
 } from "react-icons/fa";
 import { Mail } from "lucide-react";
-import LinkTreeLogo from "../assets/linktree.svg?react";
 import SocialIcons from "./ui/socialicons";
+import { SiLinktree } from "react-icons/si";
 
 import formalPhoto from "../assets/Formal Photo.jpg";
 import CV from "../assets/CV Kevin Wijaya.pdf";
@@ -93,9 +93,9 @@ const Header = () => {
             <Mail />
           </SocialIcons>
 
-          {/* <SocialIcons href="https://linktr.ee/xxkeyaxx">
-            <LinkTreeLogo />
-          </SocialIcons> */}
+          <SocialIcons href="https://linktr.ee/xxkeyaxx">
+            <SiLinktree />
+          </SocialIcons>
         </div>
       </div>
 
