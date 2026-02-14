@@ -62,7 +62,7 @@ const Portfolio = () => {
 
         {/* ================= PROJECTS ================= */}
         <ScrollReveal>
-          <SectionTitle title="Projects" />
+          <SectionTitle title="Projects (For others look at my GitHub, I'm in the process of adding them here)" />
         </ScrollReveal>
 
         <ScrollReveal>
