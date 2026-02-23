@@ -1,6 +1,6 @@
 ## Description
 
-This is a portfolio site that contains information about myself, my resume, and links to various projects I have worked on. It also contains a contact form that allows users to send me a message.
+This is a portfolio site that contains information about myself, my resume, and links to various projects I have worked on.
 
 ## Technologies Used
 
@@ -12,15 +12,4 @@ This is a portfolio site that contains information about myself, my resume, and 
 
 ## Host Link
 
-This website is hosted directly on GitHub Pages and is viewable on https://xxkeyaxx.github.io/Portfolio-Website-Kevin-Wijaya/
-
-
-## Known Bugs
-
-* No known bugs at this time.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
-Copyright (c) 2023 _Kyle Hubbard_
+This website is hosted directly on GitHub Pages and is viewable on https://xxkeyaxx.github.io/Portfolio-Website-Kevin-Wijaya
