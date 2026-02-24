@@ -3,6 +3,7 @@ import "../App.css";
 import { Download, ExternalLink } from "lucide-react";
 import ScrollReveal from "./ui/scrollreveal";
 import { FaFileAlt } from "react-icons/fa";
+import CV from "../assets/CV Kevin Wijaya.pdf";
 
 const Resume = () => {
   return (
@@ -16,10 +17,9 @@ const Resume = () => {
             </h2>
             <div className="w-24 h-0.5 bg-accent-gold mx-auto mt-4"></div>
             <a
-              href="/Kevin_Wijaya_CV.pdf"
+              href={CV}
               className="btn mt-6 border-accent-gold text-accent-gold bg-transparent
                        hover:bg-accent-gold hover:text-black transition duration-300"
-              download
             >
               <FaFileAlt />
               Download CV
