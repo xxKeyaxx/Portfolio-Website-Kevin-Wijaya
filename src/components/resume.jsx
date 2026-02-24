@@ -281,7 +281,7 @@ const Resume = () => {
                 "Oracle Cloud",
                 "Wireshark",
                 "Burp Suite",
-                "Nmap"
+                "Nmap",
               ]}
             />
 
@@ -305,7 +305,7 @@ const Resume = () => {
               title="Languages"
               skills={[
                 "Indonesian (Native/Bilingual Proficiency)",
-                "English (Native/Bilingual Proficiency)",
+                "English (TOEFL ITP: 644) (Native/Bilingual Proficiency)",
                 "Mandarin Chinese (Beginner Proficiency)",
                 "Japanese (Beginner Proficiency)",
               ]}
