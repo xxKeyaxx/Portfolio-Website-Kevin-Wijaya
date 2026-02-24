@@ -21,19 +21,19 @@ const About = () => {
           {/* Bio */}
           <div className="max-w-4xl mx-auto text-center text-gray-300 mb-12">
             <p>
-              I'm a Master's student about to graduate from Bina Nusantara
-              University majoring in Computer Science. Skilled in general
-              coding, machine learning, multimedia editing/design. Able to speak
-              English at a Bilingual level. Interested in technology, finance,
-              and history. I like building intelligent systems that solve
-              real-world problems.
+              Computer Science Graduate student at Bina Nusantara University
+              (GPA 3.93) with experience in full-stack development and machine
+              learning. Able to speak English at a Bilingual level. Interested
+              in technology, finance, and history. I like building intelligent
+              systems that solve real-world problems.
             </p>
             <p className="mt-4">
-              Interned as a back-end developer. Have previously taught English
-              to BINUS University undergraduate students and coaching BINUS
-              University's representatives in Asian English Olympics (AEO) 2023
-              Spelling Bee Competition. A semifinalist in AEO 2022 Spelling Bee
-              Competition.
+              Interned as a back-end developer with proven ability to lead
+              development teams and build scalable applications using Django.
+              Have previously taught English to BINUS University undergraduate
+              students and coaching BINUS University's representatives in Asian
+              English Olympics (AEO) 2023 Spelling Bee Competition. A
+              semifinalist in AEO 2022 Spelling Bee Competition.
             </p>
           </div>
         </ScrollReveal>

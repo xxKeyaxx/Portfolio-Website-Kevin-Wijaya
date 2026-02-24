@@ -4,12 +4,17 @@ This is a portfolio site that contains information about myself, my resume, and 
 
 ## Technologies Used
 
-* HTML
-* CSS
-* React + Vite
-* JavaScript
-* Tailwind CSS
+- HTML
+- CSS
+- React + Vite
+- JavaScript
+- Tailwind CSS
 
 ## Host Link
 
 This website is hosted directly on GitHub Pages and is viewable on https://xxkeyaxx.github.io/Portfolio-Website-Kevin-Wijaya
+
+## How to Deploy
+
+- Local: npm run dev
+- Update GitHub Hosting: npm run deploy

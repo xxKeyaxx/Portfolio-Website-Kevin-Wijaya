@@ -6,122 +6,6 @@ import { FaFileAlt } from "react-icons/fa";
 
 const Resume = () => {
   return (
-    // <section id="resume" className="bg-black text-white py-24 px-6">
-    //   <div className="max-w-5xl mx-auto">
-    //     {/* Section Title */}
-    //     <div className="text-center mb-16">
-    //       <h2 className="text-4xl font-bold text-accent-gold">Resume</h2>
-    //       <p className="text-gray-400 mt-4">
-    //         Software Engineer • Backend Developer • Data Scientist
-    //       </p>
-
-    //       <a
-    //         href="/Kevin_Wijaya_CV.pdf"
-    //         className="btn mt-6 border-accent-gold text-accent-gold bg-transparent
-    //                    hover:bg-accent-gold hover:text-black transition duration-300"
-    //         download
-    //       >
-    //         <Download size={18} />
-    //         Download CV
-    //       </a>
-    //     </div>
-
-    //     {/* Timeline */}
-    //     <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
-    //       {/* Experience 1 */}
-    //       <li>
-    //         <div className="timeline-middle text-accent-gold">●</div>
-    //         <div className="timeline-start md:text-end mb-10">
-    //           <time className="font-mono italic text-gray-400">
-    //             2024 – Present
-    //           </time>
-    //           <div className="text-lg font-bold text-accent-gold">
-    //             Backend Developer Intern
-    //           </div>
-    //           <p className="text-gray-400 mt-2">
-    //             Developing scalable APIs and optimizing backend performance.
-    //             Worked with RESTful services, database management, and system
-    //             architecture design.
-    //           </p>
-    //         </div>
-    //         <hr className="bg-accent-gold" />
-    //       </li>
-
-    //       {/* Experience 2 */}
-    //       <li>
-    //         <hr className="bg-accent-gold" />
-    //         <div className="timeline-middle text-accent-gold">●</div>
-    //         <div className="timeline-end mb-10">
-    //           <time className="font-mono italic text-gray-400">
-    //             2023 – 2024
-    //           </time>
-    //           <div className="text-lg font-bold text-accent-gold">
-    //             Data Science Research Project
-    //           </div>
-    //           <p className="text-gray-400 mt-2">
-    //             Built machine learning models to predict company valuation using
-    //             financial fundamentals and macroeconomic variables. Implemented
-    //             deep learning models including GNN and TFT.
-    //           </p>
-    //         </div>
-    //         <hr className="bg-accent-gold" />
-    //       </li>
-
-    //       {/* Education */}
-    //       <li>
-    //         <hr className="bg-accent-gold" />
-    //         <div className="timeline-middle text-accent-gold">●</div>
-    //         <div className="timeline-start md:text-end mb-10">
-    //           <time className="font-mono italic text-gray-400">
-    //             2021 – Present
-    //           </time>
-    //           <div className="text-lg font-bold text-accent-gold">
-    //             Bachelor of Computer Science
-    //           </div>
-    //           <p className="text-gray-400 mt-2">
-    //             Focus on Software Engineering, Machine Learning, and Data
-    //             Systems.
-    //           </p>
-    //         </div>
-    //       </li>
-    //     </ul>
-
-    //     {/* Skills Section */}
-    //     <div className="mt-20">
-    //       <h3 className="text-2xl font-bold text-accent-gold text-center mb-10">
-    //         Technical Skills
-    //       </h3>
-
-    //       <div className="flex flex-wrap justify-center gap-4">
-    //         {[
-    //           "Python",
-    //           "JavaScript",
-    //           "Node.js",
-    //           "Express",
-    //           "PyTorch",
-    //           "TensorFlow",
-    //           "SQL",
-    //           "PostgreSQL",
-    //           "Docker",
-    //           "Git",
-    //           "REST API",
-    //           "Machine Learning",
-    //         ].map((skill, index) => (
-    //           <span
-    //             key={index}
-    //             className="px-4 py-2 border border-accent-gold
-    //                        text-accent-gold rounded-full
-    //                        hover:bg-accent-gold hover:text-black
-    //                        transition duration-300 cursor-default"
-    //           >
-    //             {skill}
-    //           </span>
-    //         ))}
-    //       </div>
-    //     </div>
-    //   </div>
-    // </section>
-
     <section id="resume" className="bg-black text-white py-24 px-6">
       <div className="max-w-6xl mx-auto">
         {/* HEADER */}
@@ -273,8 +157,20 @@ const Resume = () => {
                   Master of Computer Science – BINUS University
                 </div>
                 <ul className="mt-3 list-disc list-inside text-gray-300 space-y-2">
-                  <p>GPA: 3.93</p>
+                  <p>Current GPA: 3.93</p>
                   <p>Minor: Cybersecurity and AI Research</p>
+                  <div className="flex flex-col md:flex-row gap-4 mt-3 justify-end-safe">
+                    <a
+                      href="https://www.linkedin.com/in/kevin-wijaya-798ab521b/details/education/1771913265945/single-media-viewer/?profileId=ACoAADeDiSQBNiVAqVvWAJ1e7tQTt_SEN8Q0KYw"
+                      className="btn border-accent-gold text-accent-gold bg-transparent
+                       hover:bg-accent-gold hover:text-black transition duration-300"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Score Transcript
+                      <ExternalLink size={18} />
+                    </a>
+                  </div>
                 </ul>
               </div>
               <hr className="bg-accent-gold" />
@@ -296,6 +192,28 @@ const Resume = () => {
                   <p>
                     Learned general Computer Science and many related skills
                   </p>
+                  <div className="flex flex-col md:flex-row gap-4 mt-3">
+                    <a
+                      href="https://www.linkedin.com/in/kevin-wijaya-798ab521b/overlay/education/746105872/multiple-media-viewer/?profileId=ACoAADeDiSQBNiVAqVvWAJ1e7tQTt_SEN8Q0KYw&treasuryMediaId=1748241762111"
+                      className="btn border-accent-gold text-accent-gold bg-transparent
+                       hover:bg-accent-gold hover:text-black transition duration-300"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Score Transcript
+                      <ExternalLink size={18} />
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/kevin-wijaya-798ab521b/overlay/education/746105872/multiple-media-viewer/?profileId=ACoAADeDiSQBNiVAqVvWAJ1e7tQTt_SEN8Q0KYw&treasuryMediaId=1748241762112"
+                      className="btn border-accent-gold text-accent-gold bg-transparent
+                       hover:bg-accent-gold hover:text-black transition duration-300"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Graduation Certificate
+                      <ExternalLink size={18} />
+                    </a>
+                  </div>
                 </ul>
               </div>
               <hr className="bg-accent-gold" />
@@ -343,16 +261,27 @@ const Resume = () => {
                 "R",
                 "JavaScript",
                 "TypeScript",
-                "Django",
-                "Laravel",
-                "React",
                 "HTML",
                 "CSS",
-                "Tailwind",
                 "SQL",
                 "PHP",
                 "Go",
+              ]}
+            />
+
+            <SkillGroup
+              title="Frameworks and Tools"
+              skills={[
+                "Django",
+                "Laravel",
+                "React",
+                "Tailwind",
                 "GitHub",
+                "AWS",
+                "Oracle Cloud",
+                "Wireshark",
+                "Burp Suite",
+                "Nmap"
               ]}
             />
 
@@ -449,8 +378,14 @@ const Resume = () => {
               <p className="text-gray-300 mt-2">
                 Feb 2023 - Dec 2023 | Creative Media Staff
               </p>
-              <p className="text-gray-300 mt-2">Making events for BINUS dormitory students and BINUS students at large.</p>
-              <p className="text-gray-300 mt-2">Acted as staff and/or coordinators in various events such as BSSC WONDER 2023, BSSC Seminar 2023, and BSSC Squarelympic 2023.</p>
+              <p className="text-gray-300 mt-2">
+                Making events for BINUS dormitory students and BINUS students at
+                large.
+              </p>
+              <p className="text-gray-300 mt-2">
+                Acted as staff and/or coordinators in various events such as
+                BSSC WONDER 2023, BSSC Seminar 2023, and BSSC Squarelympic 2023.
+              </p>
             </div>
             <SimpleCard
               title="Fast Response Community"
