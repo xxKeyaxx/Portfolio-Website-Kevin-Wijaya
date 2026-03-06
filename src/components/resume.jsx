@@ -332,6 +332,16 @@ const Resume = () => {
                 Issued June 2023 | Expired June 2025
               </p>
               <p className="text-gray-300 mt-2">Credential ID OC4212197</p>
+              <a
+                href="https://www.linkedin.com/in/kevin-wijaya-798ab521b/overlay/1772818476791/single-media-viewer/?profileId=ACoAADeDiSQBNiVAqVvWAJ1e7tQTt_SEN8Q0KYw"
+                className="btn mt-6 border-accent-gold text-accent-gold bg-transparent
+                       hover:bg-accent-gold hover:text-black transition duration-300"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Show Credential
+                <ExternalLink size={18} />
+              </a>
             </div>
             <div
               className="p-6 border border-accent-gold/30 rounded-xl
