@@ -305,7 +305,7 @@ const Resume = () => {
               title="Languages"
               skills={[
                 "Indonesian (Native/Bilingual Proficiency)",
-                "English (TOEFL ITP: 644) (Native/Bilingual Proficiency)",
+                "English (TOEFL ITP: 667) (Native/Bilingual Proficiency)",
                 "Mandarin Chinese (Beginner Proficiency)",
                 "Japanese (Beginner Proficiency)",
               ]}
@@ -320,6 +320,28 @@ const Resume = () => {
 
         <ScrollReveal>
           <div className="space-y-6 mb-16">
+            <div
+              className="p-6 border border-accent-gold/30 rounded-xl
+                    hover:border-accent-gold transition duration-300
+                    bg-neutral-900"
+            >
+              <h4 className="text-lg font-semibold text-accent-gold">
+                TOEFL ITP (Score: 667)
+              </h4>
+              <p className="text-gray-300 mt-2">
+                Issued March 2026 | Expired March 2028
+              </p>
+              <a
+                href="https://www.linkedin.com/in/kevin-wijaya-798ab521b/details/certifications/1773397389250/single-media-viewer/?profileId=ACoAADeDiSQBNiVAqVvWAJ1e7tQTt_SEN8Q0KYw"
+                className="btn mt-6 border-accent-gold text-accent-gold bg-transparent
+                       hover:bg-accent-gold hover:text-black transition duration-300"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Show Credential
+                <ExternalLink size={18} />
+              </a>
+            </div>
             <div
               className="p-6 border border-accent-gold/30 rounded-xl
                     hover:border-accent-gold transition duration-300
