@@ -332,7 +332,7 @@ const Resume = () => {
                 Issued March 2026 | Expired March 2028
               </p>
               <a
-                href="https://www.linkedin.com/in/kevin-wijaya-798ab521b/details/certifications/1773397389250/single-media-viewer/?profileId=ACoAADeDiSQBNiVAqVvWAJ1e7tQTt_SEN8Q0KYw"
+                href="https://binusianorg-my.sharepoint.com/personal/kevin_wijaya018_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQAt6OcJ75exTKcRsEfE5eKLAdgzVy-LOlHzXmo8kKBGt0E&e=HtXe15"
                 className="btn mt-6 border-accent-gold text-accent-gold bg-transparent
                        hover:bg-accent-gold hover:text-black transition duration-300"
                 target="_blank"
