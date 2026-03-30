@@ -20,6 +20,8 @@ const Resume = () => {
               href={CV}
               className="btn mt-6 border-accent-gold text-accent-gold bg-transparent
                        hover:bg-accent-gold hover:text-black transition duration-300"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FaFileAlt />
               Download CV

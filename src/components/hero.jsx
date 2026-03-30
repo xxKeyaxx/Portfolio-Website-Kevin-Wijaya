@@ -52,6 +52,8 @@ const Hero = () => {
               href={CV}
               className="btn bg-accent-gold text-black border-none
                          hover:shadow-[0_0_25px_rgba(212,175,55,0.6)]"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FaFileAlt /> Download CV
             </a>
@@ -59,6 +61,8 @@ const Hero = () => {
               href="https://linktr.ee/xxkeyaxx"
               className="btn bg-transparent text-accent-gold border-accent-gold
                          hover:shadow-[0_0_25px_rgba(212,175,55,0.6)]"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <SiLinktree /> Go to Linktree
             </a>
@@ -66,11 +70,12 @@ const Hero = () => {
               href="https://binusianorg-my.sharepoint.com/personal/kevin_wijaya018_binus_ac_id/_layouts/15/guestaccess.aspx?share=IgAVoN9VKYdCR6MuAegt6pGWAfeYsdL-NxW5Zjms-IWTqR4&e=hsn8Dz"
               className="btn bg-accent-gold text-black border-none
                          hover:shadow-[0_0_25px_rgba(212,175,55,0.6)]"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <ExternalLink size={18} /> View Documents Drive
             </a>
           </div>
-
         </div>
       </div>
 
