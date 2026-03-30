@@ -157,11 +157,11 @@ const Resume = () => {
                   Master of Computer Science – BINUS University
                 </div>
                 <ul className="mt-3 list-disc list-inside text-gray-300 space-y-2">
-                  <p>Current GPA: 3.93</p>
+                  <p>Current GPA: 3.88</p>
                   <p>Minor: Cybersecurity and AI Research</p>
                   <div className="flex flex-col md:flex-row gap-4 mt-3 justify-end-safe">
                     <a
-                      href="https://www.linkedin.com/in/kevin-wijaya-798ab521b/details/education/1771913265945/single-media-viewer/?profileId=ACoAADeDiSQBNiVAqVvWAJ1e7tQTt_SEN8Q0KYw"
+                      href="https://binusianorg-my.sharepoint.com/personal/kevin_wijaya018_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQA5gNEi9xOLQZMON1MTTe9XAT0vLB1PxO6pIb8PI74bvVs&e=jeIqr9"
                       className="btn border-accent-gold text-accent-gold bg-transparent
                        hover:bg-accent-gold hover:text-black transition duration-300"
                       target="_blank"
@@ -194,7 +194,7 @@ const Resume = () => {
                   </p>
                   <div className="flex flex-col md:flex-row gap-4 mt-3">
                     <a
-                      href="https://www.linkedin.com/in/kevin-wijaya-798ab521b/overlay/education/746105872/multiple-media-viewer/?profileId=ACoAADeDiSQBNiVAqVvWAJ1e7tQTt_SEN8Q0KYw&treasuryMediaId=1748241762111"
+                      href="https://binusianorg-my.sharepoint.com/personal/kevin_wijaya018_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQAEvHw-yYUpRoccWr5LbOtPATo2axNY7A_jM8zDDlhAfoM&e=VVP8Tl"
                       className="btn border-accent-gold text-accent-gold bg-transparent
                        hover:bg-accent-gold hover:text-black transition duration-300"
                       target="_blank"
@@ -204,7 +204,7 @@ const Resume = () => {
                       <ExternalLink size={18} />
                     </a>
                     <a
-                      href="https://www.linkedin.com/in/kevin-wijaya-798ab521b/overlay/education/746105872/multiple-media-viewer/?profileId=ACoAADeDiSQBNiVAqVvWAJ1e7tQTt_SEN8Q0KYw&treasuryMediaId=1748241762112"
+                      href="https://binusianorg-my.sharepoint.com/personal/kevin_wijaya018_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQDdJ4ONZqJERJKWA5Xs1oydAZSarDx4IBvQDgfSVG1C4f0&e=cPGyfB"
                       className="btn border-accent-gold text-accent-gold bg-transparent
                        hover:bg-accent-gold hover:text-black transition duration-300"
                       target="_blank"

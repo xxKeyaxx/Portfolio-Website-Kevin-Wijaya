@@ -22,7 +22,7 @@ const About = () => {
           <div className="max-w-4xl mx-auto text-center text-gray-300 mb-12">
             <p>
               Computer Science Graduate student at Bina Nusantara University
-              (GPA 3.93) with experience in full-stack development and machine
+              (GPA 3.88) with experience in full-stack development and machine
               learning. Able to speak English at a Bilingual level. Interested
               in technology, finance, and history. I like building intelligent
               systems that solve real-world problems.

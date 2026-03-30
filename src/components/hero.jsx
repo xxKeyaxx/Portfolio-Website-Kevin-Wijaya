@@ -3,7 +3,7 @@ import "../App.css";
 import { Typewriter } from "react-simple-typewriter";
 import CV from "../assets/CV Kevin Wijaya.pdf";
 import { FaFileAlt } from "react-icons/fa";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, ExternalLink } from "lucide-react";
 import { SiLinktree } from "react-icons/si";
 
 const Hero = () => {
@@ -55,12 +55,19 @@ const Hero = () => {
             >
               <FaFileAlt /> Download CV
             </a>
-                        <a
+            <a
               href="https://linktr.ee/xxkeyaxx"
               className="btn bg-transparent text-accent-gold border-accent-gold
                          hover:shadow-[0_0_25px_rgba(212,175,55,0.6)]"
             >
               <SiLinktree /> Go to Linktree
+            </a>
+            <a
+              href="https://binusianorg-my.sharepoint.com/personal/kevin_wijaya018_binus_ac_id/_layouts/15/guestaccess.aspx?share=IgAVoN9VKYdCR6MuAegt6pGWAfeYsdL-NxW5Zjms-IWTqR4&e=hsn8Dz"
+              className="btn bg-accent-gold text-black border-none
+                         hover:shadow-[0_0_25px_rgba(212,175,55,0.6)]"
+            >
+              <ExternalLink size={18} /> View Documents Drive
             </a>
           </div>
 
