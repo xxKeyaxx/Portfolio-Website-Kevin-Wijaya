@@ -89,7 +89,7 @@ const Portfolio = () => {
               tech={["Django", "Python", "PostgreSQL", "Analytics"]}
               image={HealthyOne}
               // github="#"
-              // demo="#"
+              demo="https://youtu.be/kXEXFHzVL8U?t=127"
             />
 
             <ProjectCard
